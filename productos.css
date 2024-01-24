@@ -1,0 +1,138 @@
+header{
+    background-color: #BBBBBB;
+    padding: 10px 0;
+}
+
+#tituloProductos{
+    font-family: 'Lucida Sans';
+    color: #4f0000;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 35px;
+    top: 40px;
+    right: 770px;
+}
+
+.caja{
+    width: 1080px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#imagenPrincipal{
+    margin-left: 10px;
+    width: 8%;
+}
+
+nav{
+    position: absolute;
+    top: 45px;
+    right: 40px;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+
+nav a{
+    text-transform: uppercase;  /*Convierte Todas las letras en mayúsculas*/
+    color: #000000;
+    font-weight: bold;  /*Texto en negritas*/
+    font-size: 22px; /*Tamaño de letra*/
+    text-decoration: none; /*Elimina efectos de decoracion cuando el link ya ha sido usado*/
+}
+
+.productos{
+    padding: 70px 0 0 0; 
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.productos li{
+    display:inline-block;  /*Reordena las listas en una fila*/
+    text-align: center;  /*Justifica el texto*/
+    width: 25%;
+    vertical-align: top;   /*La alineación vertical se basa en el top*/
+    background-color: #ffffff00;
+    /*margin: 0 1.5;  /*margenes top-bottom y laterales*/
+    padding: 20px 10px;
+
+    /*box-sizing: border-box; /*ajusta los porder al contenido del elemento*/
+    
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin: 10px;
+    /*
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+    */
+}
+
+.productos li:hover{
+    border-color: #ac0000;
+}
+
+
+.productos li:hover h2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+
+.productos li:hover p{
+    font-size: 22px;
+}
+
+.productos li:active{
+    border-color: #e70000;
+}
+
+.productos li:active h2{
+    color: #db0000;
+}
+
+.productos h2{
+    font-size:  20px;
+    font-weight: bold;
+}
+
+.imgProducto{
+    width: 60%;
+}
+
+.productoDescripcion{
+    font-size: 18px;
+}
+
+.productoPrecio{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav a:hover{ /*La propiedad over captura el movimiento del mouse sobre los elementos*/
+    color: #db0000;
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 5%;
+    background: url(imagenes/bg.jpg);  /*Seleccionamos una imagen para utilizarla como background,
+    la imagen se copio n veces hasta llenar todo el espacio.*/
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footerimg{
+    width: 7.5%;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 10px;
+}
